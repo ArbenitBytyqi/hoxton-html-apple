@@ -16,6 +16,7 @@ body {
 
 main {
     background-color: #ff00ff30;
+    display: grid;
 }
 
 .top-section {
@@ -32,6 +33,15 @@ main {
 
 .product-grid-section {
     background-color: #00ffff30;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 300px;
+    gap: 0.5rem;
+}
+
+.product-item {
+    border: 1px solid black;
 }
 
 .footer {
