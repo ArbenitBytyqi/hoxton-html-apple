@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.header {
+    background-color: #ff000030;
+}
+
+main {
+    background-color: #ff00ff30;
+}
+
+.top-section {
+    background-color: #ffff0030;
+}
+
+.iphone-13-section {
+    background-color: #0000ff30;
+}
+
+.macbook-pro-section {
+    background-color: #00ff0030;
+}
+
+.product-grid-section {
+    background-color: #00ffff30;
+}
+
+.footer {
+    background-color: #ff000030;
+}
