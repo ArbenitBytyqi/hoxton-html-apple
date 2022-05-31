@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
@@ -11,28 +12,42 @@ body {
 }
 
 .header {
-    background-color: #ff000030;
+    background-color: #333333;
+    color: white;
+}
+
+.header-nav-list {
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    padding: 1rem;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.header-nav-link {
+    color: #ffffffaa;
+    text-decoration: none;
+}
+
+.header-apple-logo {
+    width: 20px;
+    filter: invert(0.8);
 }
 
 main {
-    background-color: #ff00ff30;
     display: grid;
 }
 
-.top-section {
-    background-color: #ffff0030;
-}
+.top-section {}
 
-.iphone-13-section {
-    background-color: #0000ff30;
-}
+.iphone-13-section {}
 
-.macbook-pro-section {
-    background-color: #00ff0030;
-}
+.macbook-pro-section {}
 
 .product-grid-section {
-    background-color: #00ffff30;
+
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -44,6 +59,4 @@ main {
     border: 1px solid black;
 }
 
-.footer {
-    background-color: #ff000030;
-}
+.footer {}
